@@ -1,0 +1,81 @@
+provider_id,npi,provider_name,specialty,network_status,provider_type
+1,NPI2382136607,Provider 001,Orthopedics,In-Network,Urgent Care
+2,NPI7955687652,Provider 002,Dermatology,In-Network,Hospital
+3,NPI1765789708,Provider 003,Cardiology,In-Network,Hospital
+4,NPI5648986376,Provider 004,Orthopedics,In-Network,Clinic
+5,NPI8274351181,Provider 005,Family Medicine,Out-of-Network,Hospital
+6,NPI4390110696,Provider 006,Pediatrics,In-Network,Urgent Care
+7,NPI8844011031,Provider 007,Cardiology,In-Network,Urgent Care
+8,NPI3122500367,Provider 008,Emergency,Out-of-Network,Clinic
+9,NPI6629614125,Provider 009,Family Medicine,Out-of-Network,Clinic
+10,NPI5582903459,Provider 010,Family Medicine,In-Network,Hospital
+11,NPI8162549334,Provider 011,Oncology,Out-of-Network,Urgent Care
+12,NPI4563711754,Provider 012,Oncology,Out-of-Network,Hospital
+13,NPI9004440194,Provider 013,Oncology,Out-of-Network,Hospital
+14,NPI5781693249,Provider 014,Emergency,In-Network,Urgent Care
+15,NPI3645986633,Provider 015,Orthopedics,Out-of-Network,Urgent Care
+16,NPI8515034310,Provider 016,Orthopedics,Out-of-Network,Urgent Care
+17,NPI3863406636,Provider 017,Orthopedics,In-Network,Hospital
+18,NPI5765626609,Provider 018,Orthopedics,Out-of-Network,Urgent Care
+19,NPI8045147763,Provider 019,Pediatrics,Out-of-Network,Hospital
+20,NPI1437505371,Provider 020,Dermatology,In-Network,Hospital
+21,NPI4042077523,Provider 021,Cardiology,In-Network,Clinic
+22,NPI4023384852,Provider 022,Family Medicine,In-Network,Hospital
+23,NPI5828007811,Provider 023,Pediatrics,In-Network,Clinic
+24,NPI3197156706,Provider 024,Oncology,In-Network,Hospital
+25,NPI6952590552,Provider 025,Orthopedics,Out-of-Network,Urgent Care
+26,NPI9656186506,Provider 026,Pediatrics,Out-of-Network,Hospital
+27,NPI5374602474,Provider 027,Orthopedics,In-Network,Clinic
+28,NPI2895082943,Provider 028,Dermatology,Out-of-Network,Hospital
+29,NPI7482661332,Provider 029,Emergency,Out-of-Network,Hospital
+30,NPI5975041015,Provider 030,Emergency,Out-of-Network,Urgent Care
+31,NPI6299625245,Provider 031,Dermatology,In-Network,Urgent Care
+32,NPI4064120654,Provider 032,Dermatology,In-Network,Urgent Care
+33,NPI5058273628,Provider 033,Oncology,In-Network,Hospital
+34,NPI1585298691,Provider 034,Pediatrics,Out-of-Network,Urgent Care
+35,NPI6727674079,Provider 035,Family Medicine,Out-of-Network,Clinic
+36,NPI5827659550,Provider 036,Oncology,In-Network,Hospital
+37,NPI3408308320,Provider 037,Dermatology,Out-of-Network,Hospital
+38,NPI8806150689,Provider 038,Dermatology,In-Network,Hospital
+39,NPI5311283411,Provider 039,Oncology,Out-of-Network,Hospital
+40,NPI1712430525,Provider 040,Dermatology,In-Network,Clinic
+41,NPI5432496008,Provider 041,Cardiology,In-Network,Clinic
+42,NPI9188117290,Provider 042,Dermatology,In-Network,Hospital
+43,NPI6151961861,Provider 043,Pediatrics,In-Network,Hospital
+44,NPI7562103548,Provider 044,Family Medicine,Out-of-Network,Hospital
+45,NPI5859641941,Provider 045,Cardiology,Out-of-Network,Hospital
+46,NPI9752555714,Provider 046,Oncology,In-Network,Clinic
+47,NPI9415259314,Provider 047,Dermatology,In-Network,Clinic
+48,NPI6778643462,Provider 048,Dermatology,Out-of-Network,Clinic
+49,NPI9566805583,Provider 049,Emergency,Out-of-Network,Clinic
+50,NPI7531256553,Provider 050,Pediatrics,In-Network,Clinic
+51,NPI4896637131,Provider 051,Orthopedics,Out-of-Network,Urgent Care
+52,NPI8686133250,Provider 052,Dermatology,In-Network,Hospital
+53,NPI2919672123,Provider 053,Dermatology,Out-of-Network,Hospital
+54,NPI4908191254,Provider 054,Dermatology,Out-of-Network,Urgent Care
+55,NPI8154141154,Provider 055,Emergency,Out-of-Network,Urgent Care
+56,NPI4458555246,Provider 056,Cardiology,Out-of-Network,Urgent Care
+57,NPI1308125267,Provider 057,Dermatology,In-Network,Hospital
+58,NPI2946418691,Provider 058,Orthopedics,In-Network,Urgent Care
+59,NPI2285344109,Provider 059,Orthopedics,In-Network,Hospital
+60,NPI7573266367,Provider 060,Cardiology,Out-of-Network,Urgent Care
+61,NPI3514741719,Provider 061,Family Medicine,Out-of-Network,Hospital
+62,NPI6642664297,Provider 062,Orthopedics,Out-of-Network,Hospital
+63,NPI1886945760,Provider 063,Orthopedics,In-Network,Hospital
+64,NPI8985104777,Provider 064,Pediatrics,In-Network,Hospital
+65,NPI3404450567,Provider 065,Dermatology,In-Network,Hospital
+66,NPI5193050708,Provider 066,Oncology,In-Network,Clinic
+67,NPI9161753450,Provider 067,Emergency,Out-of-Network,Urgent Care
+68,NPI4775217737,Provider 068,Orthopedics,Out-of-Network,Clinic
+69,NPI1339257569,Provider 069,Cardiology,Out-of-Network,Hospital
+70,NPI6138778762,Provider 070,Cardiology,In-Network,Urgent Care
+71,NPI8149366283,Provider 071,Emergency,Out-of-Network,Clinic
+72,NPI3215828392,Provider 072,Orthopedics,In-Network,Urgent Care
+73,NPI6265422481,Provider 073,Cardiology,In-Network,Clinic
+74,NPI5222073043,Provider 074,Pediatrics,In-Network,Urgent Care
+75,NPI4897234109,Provider 075,Family Medicine,Out-of-Network,Urgent Care
+76,NPI6372588586,Provider 076,Emergency,In-Network,Hospital
+77,NPI4245626691,Provider 077,Cardiology,In-Network,Clinic
+78,NPI1123814172,Provider 078,Emergency,In-Network,Hospital
+79,NPI7966062094,Provider 079,Emergency,Out-of-Network,Hospital
+80,NPI3147055613,Provider 080,Cardiology,In-Network,Urgent Care

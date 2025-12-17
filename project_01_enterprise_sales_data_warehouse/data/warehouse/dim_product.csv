@@ -1,0 +1,26 @@
+product_sk,product_id,product_name,category,list_price,billing_cycle
+1,1,Product 01,Core,202.03,Annual
+2,2,Product 02,Add-on,158.31,Monthly
+3,3,Product 03,Core,97.31,Annual
+4,4,Product 04,Core,395.65,Annual
+5,5,Product 05,Professional Services,206.77,Annual
+6,6,Product 06,Add-on,133.44,Monthly
+7,7,Product 07,Professional Services,459.69,Annual
+8,8,Product 08,Professional Services,436.52,Annual
+9,9,Product 09,Core,228.5,Annual
+10,10,Product 10,Core,294.85,Monthly
+11,11,Product 11,Add-on,251.67,Monthly
+12,12,Product 12,Add-on,361.12,Monthly
+13,13,Product 13,Professional Services,145.23,Monthly
+14,14,Product 14,Add-on,194.71,Monthly
+15,15,Product 15,Professional Services,381.95,Monthly
+16,16,Product 16,Core,131.16,Annual
+17,17,Product 17,Core,362.21,Annual
+18,18,Product 18,Core,286.03,Annual
+19,19,Product 19,Professional Services,138.32,Annual
+20,20,Product 20,Add-on,341.71,Monthly
+21,21,Product 21,Core,278.4,Monthly
+22,22,Product 22,Core,359.07,Monthly
+23,23,Product 23,Add-on,307.04,Monthly
+24,24,Product 24,Core,395.55,Monthly
+25,25,Product 25,Add-on,225.87,Annual

@@ -1,0 +1,5 @@
+check_name,status,details
+sale_id unique,PASS,"2,500 transactions with unique sale_id."
+revenue formula,PASS,Validated revenue recomputation within $0.01 tolerance.
+no null foreign keys,PASS,All facts resolve to customer/product/date dimensions.
+allowed channel values,PASS,"Channel in {Direct, Partner, Online}."

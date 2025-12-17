@@ -1,0 +1,46 @@
+{
+  "$id": "https://example.com/schemas/marketing_conversion.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MarketingConversion",
+  "type": "object",
+  "required": [
+    "conversion_id",
+    "conversion_ts",
+    "user_id",
+    "conversion_type",
+    "revenue",
+    "currency",
+    "order_id"
+  ],
+  "properties": {
+    "conversion_id": {
+      "type": "string"
+    },
+    "conversion_ts": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "conversion_type": {
+      "type": "string",
+      "enum": [
+        "purchase",
+        "signup"
+      ]
+    },
+    "revenue": {
+      "type": "number",
+      "minimum": 0
+    },
+    "currency": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 3
+    },
+    "order_id": {
+      "type": "string"
+    }
+  }
+}

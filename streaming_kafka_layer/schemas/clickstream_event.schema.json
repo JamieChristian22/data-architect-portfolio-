@@ -1,0 +1,82 @@
+{
+  "$id": "https://example.com/schemas/clickstream_event.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ClickstreamEvent",
+  "type": "object",
+  "required": [
+    "event_id",
+    "event_ts",
+    "user_id",
+    "session_id",
+    "event_type",
+    "page_url",
+    "referrer",
+    "user_agent",
+    "ip_hash",
+    "utm"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "description": "UUID v4"
+    },
+    "event_ts": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "session_id": {
+      "type": "string"
+    },
+    "event_type": {
+      "type": "string",
+      "enum": [
+        "page_view",
+        "add_to_cart",
+        "begin_checkout",
+        "purchase",
+        "signup"
+      ]
+    },
+    "page_url": {
+      "type": "string"
+    },
+    "referrer": {
+      "type": "string"
+    },
+    "user_agent": {
+      "type": "string"
+    },
+    "ip_hash": {
+      "type": "string",
+      "description": "SHA-256(IP + salt)"
+    },
+    "utm": {
+      "type": "object",
+      "required": [
+        "source",
+        "medium",
+        "campaign"
+      ],
+      "properties": {
+        "source": {
+          "type": "string"
+        },
+        "medium": {
+          "type": "string"
+        },
+        "campaign": {
+          "type": "string"
+        },
+        "content": {
+          "type": "string"
+        },
+        "term": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

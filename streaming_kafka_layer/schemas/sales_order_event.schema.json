@@ -1,0 +1,72 @@
+{
+  "$id": "https://example.com/schemas/sales_order_event.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "SalesOrderEvent",
+  "type": "object",
+  "required": [
+    "order_id",
+    "order_ts",
+    "customer_id",
+    "region",
+    "currency",
+    "items",
+    "order_total",
+    "source_system",
+    "event_version"
+  ],
+  "properties": {
+    "order_id": {
+      "type": "string"
+    },
+    "order_ts": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "customer_id": {
+      "type": "string"
+    },
+    "region": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 3
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "sku",
+          "qty",
+          "unit_price"
+        ],
+        "properties": {
+          "sku": {
+            "type": "string"
+          },
+          "qty": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "unit_price": {
+            "type": "number",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "order_total": {
+      "type": "number",
+      "minimum": 0
+    },
+    "source_system": {
+      "type": "string"
+    },
+    "event_version": {
+      "type": "integer",
+      "minimum": 1
+    }
+  }
+}

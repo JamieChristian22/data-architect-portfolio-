@@ -1,0 +1,21 @@
+{
+  "connector.class": "io.confluent.connect.jdbc.JdbcSinkConnector",
+  "tasks.max": "1",
+  "topics": "clickstream.events",
+  "connection.url": "jdbc:postgresql://postgres:5432/streaming_bronze",
+  "connection.user": "da",
+  "connection.password": "da_password",
+  "auto.create": "true",
+  "auto.evolve": "true",
+  "insert.mode": "upsert",
+  "pk.mode": "record_value",
+  "pk.fields": "event_id",
+  "table.name.format": "bronze_clickstream_events",
+  "delete.enabled": "false",
+  "errors.tolerance": "all",
+  "errors.deadletterqueue.topic.name": "dlq.marketing",
+  "errors.deadletterqueue.context.headers.enable": "true",
+  "key.converter": "org.apache.kafka.connect.storage.StringConverter",
+  "value.converter": "org.apache.kafka.connect.json.JsonConverter",
+  "value.converter.schemas.enable": "false"
+}
