@@ -1,4 +1,4 @@
-# Data Architect Portfolio — 4 Real-World Projects (Job‑Ready)
+# Data Architect Portfolio — 4 Real-World Projects
 
 This portfolio contains **four end-to-end, production-style Data Architecture projects** with complete artifacts:  
 architecture diagrams, raw/staging/curated datasets, DDL/DML SQL, Python ETL scripts, data quality checks, governance docs, and example analytics outputs.
