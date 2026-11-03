@@ -1,2 +1,2 @@
-kafka-python==2.0.2
-python-dateutil==2.9.0.post0
+kafka-python==3.0.12
+python-dateutil==3.0.0
