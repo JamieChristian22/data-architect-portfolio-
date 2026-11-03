@@ -36,6 +36,8 @@ Each project folder has:
 ## License
 MIT License (portfolio/demo use).
 
+See [LICENSE](LICENSE) for the repository license. Third-party code, datasets, images, and other assets retain their respective terms.
+
 ## Streaming / Kafka Layer (Real-Time Ingestion)
 
 This portfolio includes a **Kafka-based streaming layer** (local dev) to demonstrate real-time ingestion patterns.
