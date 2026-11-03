@@ -49,3 +49,7 @@ This portfolio includes a **Kafka-based streaming layer** (local dev) to demonst
   - Project 03 (Clickstream + Conversions) → `project_03_marketing_attribution_elt/streaming_kafka/`
 
 This raises technical coverage to **batch + streaming**, including topic design, DLQs, connector-based landing, and idempotent writes.
+
+## Reviewer guide and asset provenance
+
+For project evidence navigation and an asset-rights review checklist, see [REVIEWER_GUIDE.md](REVIEWER_GUIDE.md). Sample asset entries still require independent origin and permission verification.
